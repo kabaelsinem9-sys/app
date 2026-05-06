@@ -23,7 +23,9 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: 'Eclipse Finance',
   description: 'Private access protocol. Secure financial infrastructure.',
-  generator: 'v0.app',
+icons: {
+    icon: '/favicon.jpg',
+  },
 }
 
 export default function RootLayout({
